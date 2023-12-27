@@ -1,0 +1,221 @@
+
+/*Layout *******************/
+
+@font-face {
+    font-family: "Lego Brix";
+    src: url("../tipografia/LEGOBRIX.woff");
+    
+}
+
+body {
+    background-color: black;
+}
+
+
+/* Configurações Logo*/
+
+.navbar-brand {
+    font-family: "Lego Brix";
+    font-size: 20px;
+    color: white;
+}
+
+.navbar  {
+    background-color: black;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.d-flex {
+    border: 1px solid red;
+}
+
+
+img {
+    border-radius: 300px;
+    border: 1px solid red;
+}
+
+.d-flex.img-custom {
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.btn-custom {
+    color:white;
+    border-radius: 500px;
+    -webkit-border-radius:500px
+    -moz-border-radius: 500px;
+    transition: background 0.4s color 0.4s;
+    padding: 10px 20px; 
+}
+
+.btn-roxo {
+    background: #752578;
+   }
+
+   .btn-roxo:hover{
+    background: #6207e3;
+    color: white;
+   }
+
+   .align-self-center {
+    color: white;
+   }
+   
+   .d-flex  {
+    text-align: center;
+    justify-content: center;
+}
+
+.col-md-6{
+    justify-content: center;
+    padding: 30px;
+
+
+}
+
+/*sobre mim */
+
+.jornada{
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+#sobre {
+    background-color: #201d1d;
+}
+
+
+
+
+   /*Media Queries************************/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .row {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 10px;
+     }
+
+     .d-flex  {
+        text-align: justify;
+        justify-content: center;
+    }
+
+     .navbar-brand {
+        font-size: 13px;
+     }
+
+     .paragrafo {
+        font-size: 18px;
+     }
+
+
+     .display-4 {
+
+        font-size: 3.5em;
+     
+}
+
+ img {
+    width: 280px;
+}
+    
+}
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+ 
+    .row {
+        text-align: center;
+        margin-top: 50px;
+     }
+
+     .navbar-brand {
+        font-size: 16px;
+     }
+
+     .d-flex  {
+        text-align: justify;
+        justify-content: center;
+    }
+
+    img {
+        width: 350px;
+    }
+  
+
+  }
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .row {
+        text-align: center;
+        margin-top: 50px;
+
+     }
+     .d-flex  {
+        text-align: justify;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    img {
+        width: 355px;
+    }
+     
+
+}
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .d-flex  {
+        text-align: justify;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+
+    .row {
+        text-align: center; }
+
+    .img {
+        width: 350px;
+    }
+}
+
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) { 
+    
+    .d-flex  {
+        text-align: justify;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .img {
+        width: 400px;
+    }
+
+}
