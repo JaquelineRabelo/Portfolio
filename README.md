@@ -1,3 +1,3 @@
 # Portfólio
 
-Portfólio em Construção <a href="https://jaquelinerabelo.github.io/portfolio/" target="_blank"> Portfólio em Construção</a>
+Portfólio em Construção <a href="https://jaquelinerabelo.github.io/portfolio/" target="_blank"> Portfólio - Jaqueline Rabelo</a>
