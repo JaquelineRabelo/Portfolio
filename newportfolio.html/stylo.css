@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth; /* Para rolagem suave */
+    background-color: #FFFFFF; /* Fundo branco */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #5B3FD4; /* Roxo para cabeçalhos */
+}
+
+.navbar {
+    background-color: #000000; /* Navbar preta */
+    position: sticky; /* Torna a navbar fixa */
+    top: 0; /* Fixa a navbar no topo */
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #FFFFFF; /* Texto branco na navbar */
+}
+
+.nav-link.active {
+    font-weight: bold; /* Destaca o link ativo */
+    color: #5B3FD4; /* Roxo para o link ativo */
+}
+
+/* Estilo do Parallax */
+.parallax {
+    height: 100vh; /* Altura da seção */
+    background-attachment: fixed; /* Mantém a imagem fixa */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* Cobre toda a seção */
+}
+
+/* Estilo da Seção Hero */
+.hero-section {
+    background: linear-gradient(to right, rgba(91, 63, 212, 0.7), rgba(0, 0, 0, 0.7)); /* Gradiente roxo e preto */
+    color: #FFFFFF; /* Texto branco */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section img {
+    border-radius: 50%;
+    border: 5px solid #FFFFFF; /* Borda branca para a imagem */
+}
+
+/* Estilo das Seções */
+#sobre {
+    background-image: url('./imagens/imagem-sobre.jpg'); /* Atualize o caminho da imagem */
+}
+
+#projetos {
+    background-color: #282c34; /* Cor de fundo para a seção de projetos */
+    color: #FFFFFF; /* Texto branco para projetos */
+}
+
+#habilidades {
+    background-image: url('./imagens/imagem-habilidades.jpg'); /* Atualize o caminho da imagem */
+}
+
+/* Estilo do Footer */
+.footer {
+    background-color: #000000; /* Fundo preto no footer */
+    text-align: center;
+    padding: 20px 0;
+    color: #FFFFFF; /* Texto branco no footer */
+}
+
+/* Estilos adicionais */
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2.5rem;
+    color: #5B3FD4; /* Roxo para títulos de seção */
+}
+
+/* Estilo do botão */
+.btn-primary {
+    background-color: #5B3FD4; /* Botões roxos */
+    border-color: #5B3FD4; /* Borda roxa */
+}
+
+.btn-primary:hover {
+    background-color: #4E33B0; /* Tom mais escuro de roxo ao passar o mouse */
+    border-color: #4E33B0; /* Borda escura ao passar o mouse */
+}

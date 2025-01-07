@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="stylo.css">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/png">
+    <title>Portfólio | Jaqueline Rabelo</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a href="#" class="navbar-brand">Jaqueline Rabelo</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-principal">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#contatos" class="nav-link" data-toggle="modal" data-target="#contactModal">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="hero-section animate__animated animate__fadeIn">
+    <div class="container">
+        <img src="imagens/ig.4d.png" width="200" alt="Jaqueline">
+        <h1 class="display-4">Olá, eu sou a Jaqueline</h1>
+        <p>Desenvolvedora Iniciante mestre em Gestão.</p>
+        <a href="#sobre" class="btn btn-lg btn-outline-light">Sobre mim</a>
+        <div class="social-icons mt-3">
+            <a href="https://www.linkedin.com/in/jaquelinerabelo/" target="_blank" class="btn btn-outline-light mx-2">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/JaquelineRabelo" target="_blank" class="btn btn-outline-light mx-2">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<div class="parallax section" id="sobre">
+    <div class="container">
+        <h2 class="section-title">Minha Jornada</h2>
+        <p>Sou apaixonada por gestão com uma jornada de 9 anos no mundo empresarial. Recentemente, decidi abraçar minha paixão por tecnologia e inovação, tornando-me uma estudante de Desenvolvimento Front-End.</p>
+        <p>Tenho me dedicado ao aprendizado de HTML, CSS e JavaScript, sempre buscando criar experiências digitais inovadoras.</p>
+    </div>
+</div>
+
+<div class="parallax section" id="projetos">
+    <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <p>Confira alguns dos projetos em que trabalhei:</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./imagens/renovar.png" class="card-img-top" alt="Clínica Renovar">
+                    <div class="card-body">
+                        <h5 class="card-title">Clínica Renovar</h5>
+                        <p class="card-text">Projeto de website em construção para a Clínica de Estética RENOVAR! Este site está sendo desenvolvido com o objetivo de fornecer uma experiência informativa e interativa.</p>
+                        <a href="https://jaquelinerabelo.github.io/projeto-renovar/" class="btn btn-primary">Ver projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="./imagens/calculadora.png" class="card-img-top" alt="App Calculadora">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculadora</h5>
+                        <p class="card-text">Calculadora feita com JavaScript.</p>
+                        <a href="#" class="btn btn-primary">Ver projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Projeto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto 3</h5>
+                        <p class="card-text">Descrição do projeto 3. Focado em usabilidade e design responsivo.</p>
+                        <a href="#" class="btn btn-primary">Ver projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="parallax section" id="habilidades">
+    <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="mb-3">
+            <h5>HTML</h5>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;">80%</div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <h5>CSS</h5>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <h5>JavaScript</h5>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%;">60%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2025 Jaqueline Rabelo. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<!-- Modal de Contato -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Entre em Contato</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965IzjsjW3fIoFf7W7gtDDy1p4qZ3QPL9/j6b5Q2eG2eV3n1O9LT5N5VX5" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-JrWZkIt1/IxI4GFOE7e5P5o9KOqQdI/A12Q8Ub4DJeM/t1U6H8rf7Q2m39GFhOQF" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-1CmrxMRARb6aJbI9j4S3Ush0gZ4xYh5P1Q7C5YkE6a4kU4eVJH+8/1heZ1lZoRo7" crossorigin="anonymous"></script>
+<script src="interatividade.js"></script>
+
+</body>
+</html>

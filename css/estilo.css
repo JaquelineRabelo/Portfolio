@@ -8,8 +8,15 @@
 }
 
 body {
-    background-color: black;
+    background: linear-gradient(to right, #000000, #11011d); /* Gradiente de preto para roxo escuro */
+    color: #FFFFFF; /* Texto branco para garantir boa legibilidade */
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF; /* Texto branco para títulos */
+}
+
+
 
 
 /* Configurações Logo*/
@@ -57,8 +64,7 @@ img {
     color:white;
     border-radius: 500px;
     -webkit-border-radius:500px
-    -moz-border-radius: 500px;
-    transition: background 0.4s color 0.4s;
+    -moz-border-radius:500px;
     padding: 10px 20px; 
 }
 
@@ -97,8 +103,10 @@ img {
 
 
 #sobre {
-    background-color: #201d1d;
-}
+        background: linear-gradient(to right #11011d, #000000, ); /* Gradiente de preto para roxo escuro */
+        color: #FFFFFF; /* Texto branco para garantir boa legibilidade */
+    }
+
 
 
 
