@@ -10,6 +10,7 @@
 body {
     background: linear-gradient(to right, #000000, #11011d); /* Gradiente de preto para roxo escuro */
     color: #FFFFFF; /* Texto branco para garantir boa legibilidade */
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar  {
-    background-color: black;
+    background-color: rgb(22, 1, 32);
 }
 
 .navbar-light .navbar-brand {
@@ -43,14 +44,12 @@ a {
     color: white;
 }
 
-.d-flex {
-    border: 1px solid red;
-}
+
 
 
 img {
     border-radius: 300px;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .d-flex.img-custom {
@@ -98,16 +97,84 @@ img {
 .jornada{
     justify-content: center;
     justify-items: center;
+    
+}
+
+/* sobre mim #sobre {
+    background: rgb(79, 54, 93); /* Fundo branco */
+    color: black; /* Texto preto */
+    padding: 60px 0; /* Adicionando um pouco de espaçamento ao redor do conteúdo */
+    position: relative; /* Para permitir que os pseudo-elementos sejam posicionados
+    
+    line-height: 3; */
+
+
+#sobre {
+    background-color: #3f1559; /* Fundo preto */
+    color: rgb(185, 34, 34); /* Texto branco */
+    padding: 60px 0; /* Espaçamento vertical */
+}
+
+#sobre h2 {
+    font-size: 2.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Fonte em negrito */
+    color: #a561c0; /* Cor roxa */
+}
+
+.jornada {
+    font-size: 1.2rem; /* Tamanho da fonte do parágrafo */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
+}
+
+.perfil1 {
+    font-size: 1.2rem; /* Tamanho da fonte do perfil */
+    line-height: 1.5; /* Altura da linha para melhor legibilidade */
 }
 
 
 
-#sobre {
-        background: linear-gradient(to right #11011d, #000000, ); /* Gradiente de preto para roxo escuro */
-        color: #FFFFFF; /* Texto branco para garantir boa legibilidade */
-    }
+#home {
+
+    line-height: 4.5;
+}
+
+/***************configuração section vantagens Index*****************/
+.container-vantagens {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 118px;
+}
 
 
+.itens-vantagens {
+
+    align-items: center;
+    border: 1px solid #2c1437;
+    border-radius: 10px;
+    width: 27%;
+    padding: 10px;
+    gap: 15px;
+    margin-top: 47px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo-vant {
+    color: #ffffff;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container-vantagens .itens-vantagens .parag-vant {
+    justify-content: center;
+    text-align: center;
+    color: #b577cdb9
+}
 
 
 
@@ -201,6 +268,7 @@ img {
         text-align: justify;
         justify-content: center;
         margin-top: 50px;
+      
         
     }
 
@@ -220,7 +288,10 @@ img {
         text-align: justify;
         justify-content: center;
         margin-top: 50px;
+        
     }
+
+    
 
     .img {
         width: 400px;

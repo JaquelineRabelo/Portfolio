@@ -8,13 +8,29 @@
     <link rel="stylesheet" href="stylo.css">
     <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/png">
     <title>Portfólio | Jaqueline Rabelo</title>
+    <style>
+        /* Estilos para a seção "home" */
+        .hero-section {
+            height: 100vh; /* Ocupa 100% da altura da janela de visualização */
+            display: flex; /* Utiliza Flexbox para centralizar o conteúdo */
+            align-items: center; /* Centraliza verticalmente */
+            justify-content: center; /* Centraliza horizontalmente */
+            color: white; /* Define a cor do texto */
+            background-color: #343a40; /* Cor de fundo da seção (pode ser alterada) */
+            text-align: center; /* Centraliza o texto */
+        }
+
+        body {
+            padding-top: 70px; /* Espaço para a navbar fixa */
+        }
+    </style>
 </head>
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Jaqueline Rabelo</a>
+            <a href="#home" class="navbar-brand">Jaqueline Rabelo</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
                 <i class="fas fa-bars text-white"></i>
             </button>
@@ -30,7 +46,7 @@
     </nav>
 </header>
 
-<section class="hero-section animate__animated animate__fadeIn">
+<section id="home" class="hero-section animate__animated animate__fadeIn">
     <div class="container">
         <img src="imagens/ig.4d.png" width="200" alt="Jaqueline">
         <h1 class="display-4">Olá, eu sou a Jaqueline</h1>
@@ -158,10 +174,4 @@
     </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965IzjsjW3fIoFf7W7gtDDy1p4qZ3QPL9/j6b5Q2eG2eV3n1O9LT5N5VX5" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-JrWZkIt1/IxI4GFOE7e5P5o9KOqQdI/A12Q8Ub4DJeM/t1U6H8rf7Q2m39GFhOQF" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-1CmrxMRARb6aJbI9j4S3Ush0gZ4xYh5P1Q7C5YkE6a4kU4eVJH+8/1heZ1lZoRo7" crossorigin="anonymous"></script>
-<script src="interatividade.js"></script>
-
-</body>
-</html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i
